@@ -1,0 +1,9 @@
+__pycache__
+build
+dist/Slatexocr
+1.png
+Slatexocr.spec
+app.spec
+app2.spec
+test.py
+dist

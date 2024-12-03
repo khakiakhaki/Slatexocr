@@ -1,0 +1,6 @@
+{
+    "url": "https://server.simpletex.cn/api/latex_ocr_turbo",
+    "appid": "xxxxxxxxxxxxxxxx",
+    "appsecret": "xxxxxxxxxxxxxxx",
+    "copywhich": 1
+}

@@ -1,0 +1,9 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="img">
+    <file>img/copy.png</file>
+    <file>img/copied.png</file>
+    <file>img/edit.png</file>
+    <file>img/error.png</file>
+    <file>img/icon.png</file>
+</qresource>
+</RCC>
