@@ -1,5 +1,7 @@
 # A simpletex api latex ocr client
 without implement any screenshot method, just get pics from clipboard, you can use any software to save screenshot to clipboard then do ocr
+[get a simpletex api](https://simpletex.cn/api)   
+
 # config guide
 put the config.json at same folder of executable, set the appid and appsecret
 ```json
