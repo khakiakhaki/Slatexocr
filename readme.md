@@ -53,4 +53,5 @@ pyinstaller --onefile  --windowed --icon=./img/Simpletex.ico Slatexocr.py
 
 # acknowledge
 [img2latex](https://github.com/Joshua-li-yi/img2latex?tab=readme-ov-file)
+
 [OCR math to latex from image annotations](https://github.com/windingwind/zotero-actions-tags/discussions/220)
