@@ -11,9 +11,11 @@ put the config.json at same folder of apps, set the appid and appsecret
 }
 ```
 copywhich controls which latex you want copy when you press shortcut of copy , 
+```
 1 -> latex
 2 -> $latex$
 3 -> $$latex$$
+```
 
 # usage
 use `control + v` to paste picture from clipboard and then ocr
