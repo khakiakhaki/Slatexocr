@@ -1,7 +1,7 @@
-A simpletex api latex ocr client
-
+# A simpletex api latex ocr client
+without implement any screenshot method, just get pics from clipboard, you can use any software to save screenshot to clipboard then do ocr
 # config guide
-put the config.json at same folder of apps, set the appid and appsecret
+put the config.json at same folder of executable, set the appid and appsecret
 ```json
 {
     "url": "https://server.simpletex.cn/api/latex_ocr_turbo",
@@ -23,32 +23,20 @@ use `control + c` to copy the latex
 
 if some font error , make sure you installed the font `conslas`
 
-# develop enviroment 
+# develop enviroment     
 
-enviroment is in enviroment.yml 
-
-create the conda enviroment by command 
+use conda enviroment config `enviroment.yml` to create a conda vritual enviroment 
 ```sh
 conda env create -f environment.yml
 ```
 
-then activate and develop 
+# packaging/release
+
+if qrimg is not exist , convert img to qrc resource before packaging by command
 ```sh
-conda activate myenv
+pyrcc5 qrimg.qrc -o qrimg.py
 ```
-
-# packaging/release the apps 
-
-if qrimg is not exist , convert img to qrc resource before packaging, convert commands in terminal is  
-```sh
-pyrcc5 qrimg.qrd -o qrimg.py
-```
-
-```sh
-pyinstaller --windowed --icon=./img/Simpletex.ico Slatexocr.py
-```
-
-or all in one file 
+generate executable file
 ```sh
 pyinstaller --onefile  --windowed --icon=./img/Simpletex.ico Slatexocr.py
 ```
